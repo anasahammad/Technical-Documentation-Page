@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    min-width: 290px;
+    font-family: 'Open Sans', Ariyal, sans-serif;
+    color:#4d4e53;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+body {
+    margin:8px;
+}
+#navbar {
+    min-width: 290px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    width: 300px;
+    height: 100%;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+nav {
+    display: block;
+}
+header {
+    color: black;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 10px;;
+}
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+}
+#navbar li {
+    list-style: none;
+    border-top: 1px solid;
+    color: #4d4e53;
+    width: 100%;
+    position: relative;
+}
+li {
+    display: list-item;
+}
+#navbar a {
+    text-decoration: none;
+    color: #4d4e53;
+    display: block;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+main {
+    position: absolute;
+    margin-left: 310px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+section {
+    display: block;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+}
+code {
+    display: block;
+    position: relative;
+    text-align: left;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    white-space: pre-line;
+    line-height: 2;
+    
+    
+}
+@media (min-width: 290px) and (max-width: 1349px) {
+    html {
+        min-width: 290p;
+    }
+}
